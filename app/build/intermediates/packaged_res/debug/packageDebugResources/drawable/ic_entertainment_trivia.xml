@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Trivia Question Mark - 3D Isometric Look -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M256,100 Q350,100 350,200 Q350,250 256,300 L256,350"
+        android:strokeWidth="20"
+        android:strokeColor="#FFD54F" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M256,400 m-20,0 a20,20 0 1,0 40,0 a20,20 0 1,0 -40,0" />
+</vector>

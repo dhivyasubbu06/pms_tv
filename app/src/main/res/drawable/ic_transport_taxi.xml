@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Yellow Checkered Taxi (Front 3/4) - 3D Isometric Look -->
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M150,250 L362,250 L412,350 L100,350 Z" />
+    <path
+        android:fillColor="#212121"
+        android:pathData="M160,350 L200,350 L200,400 L160,400 Z M312,350 L352,350 L352,400 L312,400 Z" />
+</vector>

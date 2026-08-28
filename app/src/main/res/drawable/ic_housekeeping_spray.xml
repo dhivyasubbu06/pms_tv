@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Pink Spray Bottle - 3D Isometric Look -->
+    <path
+        android:fillColor="#F06292"
+        android:pathData="M200,200 L312,200 L312,450 Q312,480 256,480 Q200,480 200,450 Z" />
+    <path
+        android:fillColor="#EC407A"
+        android:pathData="M200,200 L256,150 L312,200 Z" />
+    <path
+        android:fillColor="#424242"
+        android:pathData="M240,150 L272,150 L272,100 L240,100 Z" />
+    <path
+        android:fillColor="#757575"
+        android:pathData="M272,120 L320,120 L320,140 L272,140 Z" />
+</vector>

@@ -1,0 +1,206 @@
+[
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\fragment_entertainment.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\fragment_entertainment.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\activity_launcher_pink.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\activity_launcher_pink.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\fragment_restaurant_reservation.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\fragment_restaurant_reservation.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\item_request_card.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\item_request_card.xml"
+    },
+    {
+        "merged": "com.pinehotel.hospitality.app-mergeDebugResources-53:/layout/activity_main.xml",
+        "source": "com.pinehotel.hospitality.app-main-56:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\fragment_order_confirmation.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\fragment_order_confirmation.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\view_slot_pill.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\view_slot_pill.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\dialog_booking_confirmation.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\dialog_booking_confirmation.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\fragment_resort_shop.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\fragment_resort_shop.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\fragment_activity_booking.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\fragment_activity_booking.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\item_spa_card.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\item_spa_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\item_category.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\item_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\item_menu_card.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\item_menu_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\item_maintenance_card.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\item_maintenance_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\fragment_housekeeping.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\fragment_housekeeping.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\item_transport_card.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\item_transport_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\item_activity_card.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\item_activity_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\item_cart_header.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\item_cart_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\fragment_services_dashboard.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\fragment_services_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\item_restaurant_card.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\item_restaurant_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\layout_notification_bar.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\layout_notification_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\item_cart_line.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\item_cart_line.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\fragment_concierge.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\fragment_concierge.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\item_service_card.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\item_service_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\item_housekeeping_card.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\item_housekeeping_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\item_shop_card.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\item_shop_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\item_booking_row.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\item_booking_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\item_booking_entry.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\item_booking_entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\layout_cart_bar.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\layout_cart_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\item_activity_row.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\item_activity_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\item_laundry_card.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\item_laundry_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\activity_booking.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\activity_booking.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\fragment_transportation.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\fragment_transportation.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\fragment_spa_wellness.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\fragment_spa_wellness.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\dialog_transport_booking.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\dialog_transport_booking.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\item_order_confirmation.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\item_order_confirmation.xml"
+    },
+    {
+        "merged": "com.pinehotel.hospitality.app-mergeDebugResources-53:/layout/activity_launcher_pink.xml",
+        "source": "com.pinehotel.hospitality.app-main-56:/layout/activity_launcher_pink.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\item_booking_card.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\item_booking_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\activity_services.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\activity_services.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\dialog_service_request.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\dialog_service_request.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\fragment_room_service.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\fragment_room_service.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\fragment_laundry.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\fragment_laundry.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\activity_live_tv.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\activity_live_tv.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\item_food_card.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\item_food_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\fragment_my_requests.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\fragment_my_requests.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\item_launcher_card_pink.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\item_launcher_card_pink.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\item_category_panel.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\item_category_panel.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\activity_setup.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\activity_setup.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\fragment_view_cart.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\fragment_view_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-mergeDebugResources-53:\\layout\\fragment_maintenance.xml",
+        "source": "C:\\Users\\dhivy\\.gradle\\daemon\\9.3.0\\com.pinehotel.hospitality.app-main-56:\\layout\\fragment_maintenance.xml"
+    }
+]

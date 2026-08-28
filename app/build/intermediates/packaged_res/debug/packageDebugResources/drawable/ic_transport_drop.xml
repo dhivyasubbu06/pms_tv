@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Yellow and Orange Taxi (Side View) - 3D Isometric Look -->
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M100,300 L412,300 L412,400 L100,400 Z" />
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M150,220 L362,220 L362,300 L150,300 Z" />
+    <path
+        android:fillColor="#212121"
+        android:pathData="M120,400 L180,400 L180,460 L120,460 Z M332,400 L392,400 L392,460 L332,460 Z" />
+</vector>

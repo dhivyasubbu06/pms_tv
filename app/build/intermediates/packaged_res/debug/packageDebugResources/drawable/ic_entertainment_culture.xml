@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Cultural Mask - 3D Isometric Look -->
+    <path
+        android:fillColor="#EC407A"
+        android:pathData="M200,100 Q256,50 312,100 L350,300 Q256,400 162,300 Z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M220,200 L240,200 M272,200 L292,200"
+        android:strokeWidth="5"
+        android:strokeColor="#FFD54F" />
+</vector>

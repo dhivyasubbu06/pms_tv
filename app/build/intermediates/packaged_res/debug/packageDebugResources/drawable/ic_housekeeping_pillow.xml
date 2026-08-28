@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Blue Pillow + Gold Lamp - 3D Isometric Look -->
+    <path
+        android:fillColor="#64B5F6"
+        android:pathData="M100,300 Q150,250 400,300 L350,450 Q100,480 100,450 Z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M400,100 L420,100 L420,400 L400,400 Z" />
+    <path
+        android:fillColor="#FFF176"
+        android:pathData="M380,100 L440,100 L410,50 Z" />
+</vector>

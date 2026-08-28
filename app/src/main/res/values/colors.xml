@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Burgundy / wine gradient base -->
+    <color name="wine_dark">#2A0A14</color>
+    <color name="wine_mid">#4A0F22</color>
+    <color name="wine_light">#6B142F</color>
+    <color name="wine_card_bg">#2A0E16</color>
+    <color name="burgundy_text">#2A0E16</color>
+
+    <!-- Gold accents -->
+    <color name="gold_accent">#D4AF37</color>
+    <color name="gold_accent_cart">#D4AF6A</color>
+    <color name="gold_bright">#F4D06F</color>
+    <color name="gold_dim">#8A6E23</color>
+    <color name="gold_gradient_start">#D4AF6A</color>
+    <color name="gold_gradient_end">#B8860B</color>
+
+    <!-- Text -->
+    <color name="text_primary">#F5EFE6</color>
+    <color name="text_secondary">#C9B8A8</color>
+    <color name="text_muted">#9C8878</color>
+
+    <!-- Rose / pink accent (icon badges, WI-FI/room pill, unfocused card wash) -->
+    <color name="rose_pink">#D81B60</color>
+    <color name="rose_pink_light">#F06292</color>
+    <color name="rose_pink_dark">#880E4F</color>
+
+    <!-- Card states -->
+    <color name="card_unfocused_bg">#2A0E16</color>
+    <color name="card_focused_bg">#5C1B2E</color>
+
+    <!-- Misc -->
+    <color name="overlay_black_40">#66000000</color>
+    <color name="overlay_black_60">#99000000</color>
+    <color name="transparent">#00000000</color>
+    <!-- Status colors -->
+    <color name="status_done">#4CAF50</color>
+    <color name="status_pending">#FFC107</color>
+    <color name="status_in_progress">#2196F3</color>
+</resources>

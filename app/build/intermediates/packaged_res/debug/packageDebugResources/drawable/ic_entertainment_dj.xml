@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- DJ Turntable - 3D Isometric Look -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M100,200 L412,200 L412,350 L100,350 Z" />
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M256,275 m-50,0 a50,50 0 1,0 100,0 a50,50 0 1,0 -100,0" />
+</vector>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Shirt with magnifying glass - 3D Isometric Look -->
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M150,150 L362,150 L362,450 L150,450 Z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M300,300 L350,350 L340,360 L290,310 Z" />
+</vector>

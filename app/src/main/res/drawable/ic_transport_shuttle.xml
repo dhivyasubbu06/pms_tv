@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Blue and Purple Shuttle Van - 3D Isometric Look -->
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M100,200 L412,200 L412,400 L100,400 Z" />
+    <path
+        android:fillColor="#7E57C2"
+        android:pathData="M100,200 L150,150 L412,150 L412,200 Z" />
+    <path
+        android:fillColor="#212121"
+        android:pathData="M120,400 L180,400 L180,450 L120,450 Z M332,400 L392,400 L392,450 L332,450 Z" />
+</vector>

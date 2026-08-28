@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Carrom Board - 3D Isometric Look -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M100,100 L412,100 L412,412 L100,412 Z" />
+    <path
+        android:fillColor="#D7CCC8"
+        android:pathData="M120,120 L392,120 L392,392 L120,392 Z" />
+    <path
+        android:fillColor="#212121"
+        android:pathData="M256,256 m-50,0 a50,50 0 1,0 100,0 a50,50 0 1,0 -100,0" />
+</vector>

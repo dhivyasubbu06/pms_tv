@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Campfire - 3D Isometric Look -->
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M200,400 L256,100 L312,400 Z" />
+    <path
+        android:fillColor="#795548"
+        android:pathData="M150,400 L362,400 L362,450 L150,450 Z" />
+</vector>

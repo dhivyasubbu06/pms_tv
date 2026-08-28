@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Small Pink and Blue Car - 3D Isometric Look -->
+    <path
+        android:fillColor="#EC407A"
+        android:pathData="M100,300 L412,300 L412,400 L100,400 Z" />
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M150,200 L362,200 L362,300 L150,300 Z" />
+    <path
+        android:fillColor="#212121"
+        android:pathData="M120,400 L160,400 L160,440 L120,440 Z M352,400 L392,400 L392,440 L352,440 Z" />
+</vector>

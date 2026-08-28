@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Welcome Ceremony - 3D Isometric Look -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M256,100 L300,200 L400,200 L320,300 L350,400 L256,330 L162,400 L192,300 L112,200 L212,200 Z" />
+</vector>

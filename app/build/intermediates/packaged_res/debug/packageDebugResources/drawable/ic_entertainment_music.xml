@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Music - 3D Isometric Look -->
+    <path
+        android:fillColor="#7E57C2"
+        android:pathData="M200,400 Q150,400 150,350 Q150,300 200,300 L200,100 L350,150 L350,350 Q350,400 300,400 Z" />
+</vector>

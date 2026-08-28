@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Trekking - 3D Isometric Look -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M100,400 L256,100 L412,400 Z" />
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M200,100 L250,50 L300,100 Z" />
+</vector>

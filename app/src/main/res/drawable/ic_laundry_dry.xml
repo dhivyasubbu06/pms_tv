@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Shirt on hanger inside garment bag - 3D Isometric Look -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M150,150 L362,150 L362,450 L150,450 Z" />
+    <path
+        android:fillColor="#424242"
+        android:pathData="M240,100 L272,100 L272,150 L240,150 Z" />
+</vector>

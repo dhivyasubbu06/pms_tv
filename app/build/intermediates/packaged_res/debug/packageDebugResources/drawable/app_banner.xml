@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 320x180dp placeholder banner required by the LEANBACK_LAUNCHER intent filter.
+     Replace with real branded artwork (PNG, 320x180px) before shipping. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/wine_mid" />
+    <stroke android:width="2dp" android:color="@color/gold_accent" />
+</shape>

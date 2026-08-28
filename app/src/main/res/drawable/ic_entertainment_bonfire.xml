@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Bonfire - 3D Isometric Look -->
+    <path
+        android:fillColor="#FF7043"
+        android:pathData="M256,100 L300,300 L212,300 Z" />
+    <path
+        android:fillColor="#795548"
+        android:pathData="M150,300 L362,300 L362,350 L150,350 Z" />
+</vector>

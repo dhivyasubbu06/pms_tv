@@ -1,0 +1,286 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pinehotel.hospitality"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-feature
+11-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:6:5-8:35
+12        android:name="android.software.leanback"
+12-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:7:9-49
+13        android:required="true" />
+13-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:8:9-32
+14    <uses-feature
+14-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:9:5-11:36
+15        android:name="android.hardware.touchscreen"
+15-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:10:9-52
+16        android:required="false" />
+16-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:11:9-33
+17
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:13:5-67
+18-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:13:22-64
+19
+20    <permission
+20-->[androidx.core:core:1.13.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\bf89162ae3a323bacc1f2afbf831c8e8\workspace\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+21        android:name="com.pinehotel.hospitality.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.13.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\bf89162ae3a323bacc1f2afbf831c8e8\workspace\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.13.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\bf89162ae3a323bacc1f2afbf831c8e8\workspace\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.pinehotel.hospitality.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.13.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\bf89162ae3a323bacc1f2afbf831c8e8\workspace\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.13.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\bf89162ae3a323bacc1f2afbf831c8e8\workspace\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:15:5-62:19
+27        android:allowBackup="true"
+27-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:16:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.13.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\bf89162ae3a323bacc1f2afbf831c8e8\workspace\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+29        android:banner="@drawable/app_banner"
+29-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:17:9-46
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:icon="@mipmap/ic_launcher"
+32-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:18:9-43
+33        android:label="@string/app_name"
+33-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:19:9-41
+34        android:logo="@drawable/app_banner"
+34-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:20:9-44
+35        android:networkSecurityConfig="@xml/network_security_config"
+35-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:24:9-69
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:21:9-54
+37        android:supportsRtl="true"
+37-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:22:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.PineHotelTV"
+39-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:23:9-49
+40        android:usesCleartextTraffic="true" >
+40-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:25:9-44
+41        <activity
+41-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:28:9-40:20
+42            android:name="com.pinehotel.hospitality.MainActivity"
+42-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:29:13-41
+43            android:exported="true"
+43-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:30:13-36
+44            android:screenOrientation="landscape"
+44-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:31:13-50
+45            android:theme="@style/Theme.PineHotelTV" >
+45-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:32:13-53
+46            <intent-filter android:priority="1" >
+46-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:33:13-39:29
+46-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:33:28-48
+47                <action android:name="android.intent.action.MAIN" />
+47-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:34:17-69
+47-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:34:25-66
+48
+49                <category android:name="android.intent.category.HOME" />
+49-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:35:17-73
+49-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:35:27-70
+50                <category android:name="android.intent.category.DEFAULT" />
+50-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:36:17-76
+50-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:36:27-73
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:37:17-77
+51-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:37:27-74
+52                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+52-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:38:17-86
+52-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:38:27-83
+53            </intent-filter>
+54        </activity>
+55        <activity
+55-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:42:9-46:56
+56            android:name="com.pinehotel.hospitality.SetupActivity"
+56-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:43:13-42
+57            android:exported="true"
+57-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:44:13-36
+58            android:screenOrientation="landscape"
+58-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:45:13-50
+59            android:theme="@style/Theme.PineHotelTV" />
+59-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:46:13-53
+60
+61        <!-- Destination activities — stub implementations, wire up real screens later -->
+62        <activity
+62-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:49:9-118
+63            android:name="com.pinehotel.hospitality.ui.LiveTvActivity"
+63-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:49:19-52
+64            android:exported="false"
+64-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:49:53-77
+65            android:screenOrientation="landscape" />
+65-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:49:78-115
+66        <activity
+66-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:50:9-118
+67            android:name="com.pinehotel.hospitality.ui.MoviesActivity"
+67-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:50:19-52
+68            android:exported="false"
+68-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:50:53-77
+69            android:screenOrientation="landscape" />
+69-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:50:78-115
+70        <activity
+70-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:51:9-123
+71            android:name="com.pinehotel.hospitality.ui.RoomServiceActivity"
+71-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:51:19-57
+72            android:exported="false"
+72-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:51:58-82
+73            android:screenOrientation="landscape" />
+73-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:51:83-120
+74        <activity
+74-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:52:9-124
+75            android:name="com.pinehotel.hospitality.ui.HousekeepingActivity"
+75-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:52:19-58
+76            android:exported="false"
+76-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:52:59-83
+77            android:screenOrientation="landscape" />
+77-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:52:84-121
+78        <activity
+78-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:53:9-121
+79            android:name="com.pinehotel.hospitality.ui.HotelInfoActivity"
+79-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:53:19-55
+80            android:exported="false"
+80-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:53:56-80
+81            android:screenOrientation="landscape" />
+81-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:53:81-118
+82        <activity
+82-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:54:9-116
+83            android:name="com.pinehotel.hospitality.ui.WifiActivity"
+83-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:54:19-50
+84            android:exported="false"
+84-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:54:51-75
+85            android:screenOrientation="landscape" />
+85-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:54:76-113
+86        <activity
+86-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:55:9-119
+87            android:name="com.pinehotel.hospitality.ui.GalleryActivity"
+87-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:55:19-53
+88            android:exported="false"
+88-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:55:54-78
+89            android:screenOrientation="landscape" />
+89-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:55:79-116
+90        <activity
+90-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:56:9-120
+91            android:name="com.pinehotel.hospitality.ui.MessagesActivity"
+91-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:56:19-54
+92            android:exported="false"
+92-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:56:55-79
+93            android:screenOrientation="landscape" />
+93-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:56:80-117
+94        <activity
+94-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:57:9-120
+95            android:name="com.pinehotel.hospitality.ui.SettingsActivity"
+95-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:57:19-54
+96            android:exported="false"
+96-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:57:55-79
+97            android:screenOrientation="landscape" />
+97-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:57:80-117
+98        <activity
+98-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:58:9-119
+99            android:name="com.pinehotel.hospitality.ui.BookingActivity"
+99-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:58:19-53
+100            android:exported="false"
+100-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:58:54-78
+101            android:screenOrientation="landscape" />
+101-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:58:79-116
+102        <activity
+102-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:59:9-127
+103            android:name="com.pinehotel.hospitality.activities.ServicesActivity"
+103-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:59:19-62
+104            android:exported="true"
+104-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:59:63-86
+105            android:screenOrientation="landscape" />
+105-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:59:87-124
+106        <activity
+106-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:60:9-123
+107            android:name="com.pinehotel.hospitality.ui.LauncherPinkActivity"
+107-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:60:19-58
+108            android:exported="true"
+108-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:60:59-82
+109            android:screenOrientation="landscape" />
+109-->D:\pineTV\PineHotelTV\app\src\main\AndroidManifest.xml:60:83-120
+110
+111        <provider
+111-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\56a1a26f2a6a47338f79924ad1a039e4\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+112            android:name="androidx.startup.InitializationProvider"
+112-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\56a1a26f2a6a47338f79924ad1a039e4\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+113            android:authorities="com.pinehotel.hospitality.androidx-startup"
+113-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\56a1a26f2a6a47338f79924ad1a039e4\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+114            android:exported="false" >
+114-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\56a1a26f2a6a47338f79924ad1a039e4\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+115            <meta-data
+115-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\56a1a26f2a6a47338f79924ad1a039e4\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+116                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+116-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\56a1a26f2a6a47338f79924ad1a039e4\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+117                android:value="androidx.startup" />
+117-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\56a1a26f2a6a47338f79924ad1a039e4\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+118            <meta-data
+118-->[androidx.lifecycle:lifecycle-process:2.8.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\5b253c1d4045f58953b58409caa9c0fa\workspace\transformed\jetified-lifecycle-process-2.8.1\AndroidManifest.xml:29:13-31:52
+119                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+119-->[androidx.lifecycle:lifecycle-process:2.8.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\5b253c1d4045f58953b58409caa9c0fa\workspace\transformed\jetified-lifecycle-process-2.8.1\AndroidManifest.xml:30:17-78
+120                android:value="androidx.startup" />
+120-->[androidx.lifecycle:lifecycle-process:2.8.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\5b253c1d4045f58953b58409caa9c0fa\workspace\transformed\jetified-lifecycle-process-2.8.1\AndroidManifest.xml:31:17-49
+121            <meta-data
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\694414c19950762004229f6086a2f566\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+122                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\694414c19950762004229f6086a2f566\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+123                android:value="androidx.startup" />
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\694414c19950762004229f6086a2f566\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+124        </provider>
+125
+126        <uses-library
+126-->[androidx.window:window:1.0.0] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\6b83e90102451c70e3741a42131d5ac2\workspace\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+127            android:name="androidx.window.extensions"
+127-->[androidx.window:window:1.0.0] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\6b83e90102451c70e3741a42131d5ac2\workspace\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+128            android:required="false" />
+128-->[androidx.window:window:1.0.0] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\6b83e90102451c70e3741a42131d5ac2\workspace\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+129        <uses-library
+129-->[androidx.window:window:1.0.0] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\6b83e90102451c70e3741a42131d5ac2\workspace\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+130            android:name="androidx.window.sidecar"
+130-->[androidx.window:window:1.0.0] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\6b83e90102451c70e3741a42131d5ac2\workspace\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+131            android:required="false" />
+131-->[androidx.window:window:1.0.0] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\6b83e90102451c70e3741a42131d5ac2\workspace\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+132
+133        <receiver
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\694414c19950762004229f6086a2f566\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+134            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\694414c19950762004229f6086a2f566\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+135            android:directBootAware="false"
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\694414c19950762004229f6086a2f566\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+136            android:enabled="true"
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\694414c19950762004229f6086a2f566\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+137            android:exported="true"
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\694414c19950762004229f6086a2f566\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+138            android:permission="android.permission.DUMP" >
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\694414c19950762004229f6086a2f566\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+139            <intent-filter>
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\694414c19950762004229f6086a2f566\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+140                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\694414c19950762004229f6086a2f566\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\694414c19950762004229f6086a2f566\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+141            </intent-filter>
+142            <intent-filter>
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\694414c19950762004229f6086a2f566\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+143                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\694414c19950762004229f6086a2f566\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\694414c19950762004229f6086a2f566\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+144            </intent-filter>
+145            <intent-filter>
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\694414c19950762004229f6086a2f566\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+146                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\694414c19950762004229f6086a2f566\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\694414c19950762004229f6086a2f566\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+147            </intent-filter>
+148            <intent-filter>
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\694414c19950762004229f6086a2f566\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+149                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\694414c19950762004229f6086a2f566\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dhivy\.gradle\caches\9.3.0\transforms\694414c19950762004229f6086a2f566\workspace\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+150            </intent-filter>
+151        </receiver>
+152    </application>
+153
+154</manifest>

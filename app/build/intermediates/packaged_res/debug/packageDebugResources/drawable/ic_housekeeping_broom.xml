@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Orange/Brown Broom - 3D Isometric Look -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M380,80 L400,100 L120,380 L100,360 Z" />
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M80,360 Q100,340 140,360 L180,440 Q140,460 100,440 Z" />
+    <path
+        android:fillColor="#FFA726"
+        android:pathData="M90,370 L170,430 M100,380 L160,420 M110,390 L150,410"
+        android:strokeWidth="5"
+        android:strokeColor="#FB8C00" />
+</vector>

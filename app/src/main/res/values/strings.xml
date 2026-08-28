@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pine Hotel Hospitality TV</string>
+    <string name="hotel_name">Pine Hotel</string>
+    <string name="hotel_tagline">Comfort Redefined</string>
+
+    <string name="welcome_prefix">Welcome, Guest</string>
+    <string name="welcome_message">We wish you a pleasant stay!</string>
+    <string name="welcome_sub_message">Relax. Unwind. We are here for you.</string>
+
+    <string name="wifi_card_title">Complimentary WiFi</string>
+    <string name="wifi_network_name">Pine_Hotel_Guest</string>
+    <string name="wifi_tap_label">Tap</string>
+
+    <string name="experiences_title">Today\'s Experiences</string>
+    <string name="experiences_empty_title">No experiences scheduled today</string>
+    <string name="experiences_empty_subtitle">Enjoy your time with us</string>
+
+    <string name="btn_live_tv">LIVE TV</string>
+    <string name="btn_my_bookings">MY BOOKINGS</string>
+
+    <string name="nav_hint_select">Press OK on remote to select</string>
+    <string name="nav_hint_back">Press BACK to go back</string>
+
+    <string name="footer_guest_prefix">Guest:</string>
+    <string name="footer_room_prefix">Room:</string>
+    <string name="room_format">Room %s</string>
+</resources>

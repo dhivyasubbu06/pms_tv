@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Sneaker with brush - 3D Isometric Look -->
+    <path
+        android:fillColor="#7E57C2"
+        android:pathData="M150,350 L362,350 L362,400 L150,400 Z" />
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M150,300 L250,300 L300,350 L150,350 Z" />
+</vector>

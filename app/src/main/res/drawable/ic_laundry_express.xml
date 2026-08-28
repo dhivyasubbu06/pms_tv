@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Washing machine with clock badge - 3D Isometric Look -->
+    <path
+        android:fillColor="#CFD8DC"
+        android:pathData="M150,200 L362,200 L362,450 L150,450 Z" />
+    <path
+        android:fillColor="#90A4AE"
+        android:pathData="M200,250 L312,250 L312,362 L200,362 Z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M350,200 L400,200 L400,250 L350,250 Z" />
+</vector>

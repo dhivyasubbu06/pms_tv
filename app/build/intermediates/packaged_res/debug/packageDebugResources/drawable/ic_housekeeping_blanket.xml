@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Folded Blue/Purple Blanket - 3D Isometric Look -->
+    <path
+        android:fillColor="#5C6BC0"
+        android:pathData="M100,200 L412,200 L412,350 L100,350 Z" />
+    <path
+        android:fillColor="#7986CB"
+        android:pathData="M120,220 L392,220 L392,330 L120,330 Z" />
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M100,350 L412,350 L412,400 L100,400 Z" />
+</vector>

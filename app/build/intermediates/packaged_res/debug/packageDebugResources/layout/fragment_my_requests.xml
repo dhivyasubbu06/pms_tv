@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wine_dark"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Bookings"
+        android:textColor="@color/gold_accent"
+        android:textSize="36sp"
+        android:fontFamily="serif"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/btnClose"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_close"
+        android:focusable="true"
+        android:clickable="true"
+        android:contentDescription="Close"
+        android:background="?selectableItemBackgroundBorderless"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/text_secondary" />
+
+    <!-- Left Panel -->
+    <LinearLayout
+        android:id="@+id/leftPanel"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_booking_card"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TOTAL CHARGES SO FAR"
+                android:textColor="@color/text_muted"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvChargesSub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="No charges yet"
+                android:textColor="@color/text_secondary"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvGrandTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="16dp"
+                android:text="₹0"
+                android:textColor="@color/gold_accent"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_booking_card"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MEAL PLAN"
+                android:textColor="@color/text_muted"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/ic_room_service"
+                    app:tint="@color/text_primary" />
+
+                <TextView
+                    android:id="@+id/tvMealPlanName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_weight="1"
+                    android:text="Full Board"
+                    android:textColor="@color/text_primary"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/btnChangePlan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector_button_pill"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="8dp"
+                    android:text="CHANGE PLAN"
+                    android:textColor="@color/wine_dark"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:focusable="true"
+                    android:clickable="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Main Content Area -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="24dp"
+        android:clipToPadding="false"
+        android:paddingBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/leftPanel"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false">
+
+            <!-- Food Orders -->
+            <LinearLayout
+                android:id="@+id/cardFood"
+                style="@style/BookingCategoryCard"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1">
+                <TextView style="@style/BookingCategoryTitle" android:text="🍽 FOOD ORDERS" />
+                <LinearLayout android:id="@+id/llFoodItems" style="@style/BookingItemList" />
+                <TextView android:id="@+id/tvFoodEmpty" style="@style/BookingEmptyText" />
+            </LinearLayout>
+
+            <!-- Bar Orders -->
+            <LinearLayout
+                android:id="@+id/cardBar"
+                style="@style/BookingCategoryCard"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1">
+                <TextView style="@style/BookingCategoryTitle" android:text="🍸 BAR &amp; LOUNGE" />
+                <LinearLayout android:id="@+id/llBarItems" style="@style/BookingItemList" />
+                <TextView android:id="@+id/tvBarEmpty" style="@style/BookingEmptyText" />
+            </LinearLayout>
+
+            <!-- Spa & Wellness -->
+            <LinearLayout
+                android:id="@+id/cardSpa"
+                style="@style/BookingCategoryCard"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1">
+                <TextView style="@style/BookingCategoryTitle" android:text="🧖 SPA &amp; WELLNESS" />
+                <LinearLayout android:id="@+id/llSpaItems" style="@style/BookingItemList" />
+                <TextView android:id="@+id/tvSpaEmpty" style="@style/BookingEmptyText" />
+            </LinearLayout>
+
+            <!-- Housekeeping (Hidden as requested to remove my requests services) -->
+            <LinearLayout
+                android:id="@+id/cardHousekeeping"
+                style="@style/BookingCategoryCard"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:visibility="gone">
+                <TextView style="@style/BookingCategoryTitle" android:text="🧹 HOUSEKEEPING" />
+                <LinearLayout android:id="@+id/llHousekeepingItems" style="@style/BookingItemList" />
+                <TextView android:id="@+id/tvHousekeepingEmpty" style="@style/BookingEmptyText" />
+            </LinearLayout>
+
+            <!-- Transportation (Hidden) -->
+            <LinearLayout
+                android:id="@+id/cardTransportation"
+                style="@style/BookingCategoryCard"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:visibility="gone">
+                <TextView style="@style/BookingCategoryTitle" android:text="🚗 TRANSPORTATION" />
+                <LinearLayout android:id="@+id/llTransportationItems" style="@style/BookingItemList" />
+                <TextView android:id="@+id/tvTransportationEmpty" style="@style/BookingEmptyText" />
+            </LinearLayout>
+
+            <!-- Laundry (Hidden) -->
+            <LinearLayout
+                android:id="@+id/cardLaundry"
+                style="@style/BookingCategoryCard"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:visibility="gone">
+                <TextView style="@style/BookingCategoryTitle" android:text="🧺 LAUNDRY SERVICE" />
+                <LinearLayout android:id="@+id/llLaundryItems" style="@style/BookingItemList" />
+                <TextView android:id="@+id/tvLaundryEmpty" style="@style/BookingEmptyText" />
+            </LinearLayout>
+
+            <!-- Dining -->
+            <LinearLayout
+                android:id="@+id/cardDining"
+                style="@style/BookingCategoryCard"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1">
+                <TextView style="@style/BookingCategoryTitle" android:text="🔥 DINING RESERVATIONS" />
+                <LinearLayout android:id="@+id/llDiningItems" style="@style/BookingItemList" />
+                <TextView android:id="@+id/tvDiningEmpty" style="@style/BookingEmptyText" />
+            </LinearLayout>
+
+            <!-- Activity -->
+            <LinearLayout
+                android:id="@+id/cardActivity"
+                style="@style/BookingCategoryCard"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1">
+                <TextView style="@style/BookingCategoryTitle" android:text="🎯 ACTIVITY BOOKING" />
+                <LinearLayout android:id="@+id/llActivityItems" style="@style/BookingItemList" />
+                <TextView android:id="@+id/tvActivityEmpty" style="@style/BookingEmptyText" />
+            </LinearLayout>
+
+            <!-- Entertainment -->
+            <LinearLayout
+                android:id="@+id/cardEntertainment"
+                style="@style/BookingCategoryCard"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1">
+                <TextView style="@style/BookingCategoryTitle" android:text="🎭 ENTERTAINMENT" />
+                <LinearLayout android:id="@+id/llEntertainmentItems" style="@style/BookingItemList" />
+                <TextView android:id="@+id/tvEntertainmentEmpty" style="@style/BookingEmptyText" />
+            </LinearLayout>
+
+            <!-- Maintenance (Hidden) -->
+            <LinearLayout
+                android:id="@+id/cardMaintenance"
+                style="@style/BookingCategoryCard"
+                android:layout_width="0dp"
+                android:layout_columnWeight="1"
+                android:visibility="gone">
+                <TextView style="@style/BookingCategoryTitle" android:text="🔧 MAINTENANCE" />
+                <LinearLayout android:id="@+id/llMaintenanceItems" style="@style/BookingItemList" />
+                <TextView android:id="@+id/tvMaintenanceEmpty" style="@style/BookingEmptyText" />
+            </LinearLayout>
+
+        </GridLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <include
+        android:id="@+id/layoutCartBar"
+        layout="@layout/layout_cart_bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

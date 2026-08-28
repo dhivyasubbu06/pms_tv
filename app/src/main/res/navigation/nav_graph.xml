@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/servicesDashboardFragment">
+
+    <action
+        android:id="@+id/action_global_viewCartFragment"
+        app:destination="@id/viewCartFragment" />
+
+    <fragment
+        android:id="@+id/servicesDashboardFragment"
+        android:name="com.pinehotel.hospitality.fragments.ServicesDashboardFragment"
+        android:label="Services"
+        tools:layout="@layout/fragment_services_dashboard" />
+
+    <fragment
+        android:id="@+id/roomServiceFragment"
+        android:name="com.pinehotel.hospitality.fragments.RoomServiceFragment"
+        android:label="Room Service"
+        tools:layout="@layout/fragment_room_service" />
+
+    <fragment
+        android:id="@+id/housekeepingFragment"
+        android:name="com.pinehotel.hospitality.fragments.HousekeepingFragment"
+        android:label="Housekeeping"
+        tools:layout="@layout/fragment_housekeeping" />
+
+    <fragment
+        android:id="@+id/spaFragment"
+        android:name="com.pinehotel.hospitality.fragments.SpaWellnessFragment"
+        android:label="Spa &amp; Wellness"
+        tools:layout="@layout/fragment_spa_wellness" />
+
+    <fragment
+        android:id="@+id/restaurantFragment"
+        android:name="com.pinehotel.hospitality.fragments.RestaurantReservationFragment"
+        android:label="Restaurant Reservation"
+        tools:layout="@layout/fragment_restaurant_reservation" />
+
+    <fragment
+        android:id="@+id/activityFragment"
+        android:name="com.pinehotel.hospitality.fragments.ActivityBookingFragment"
+        android:label="Activity Booking"
+        tools:layout="@layout/fragment_activity_booking" />
+
+    <fragment
+        android:id="@+id/transportationFragment"
+        android:name="com.pinehotel.hospitality.fragments.TransportationFragment"
+        android:label="Transportation"
+        tools:layout="@layout/fragment_transportation" />
+
+    <fragment
+        android:id="@+id/laundryFragment"
+        android:name="com.pinehotel.hospitality.fragments.LaundryFragment"
+        android:label="Laundry Service"
+        tools:layout="@layout/fragment_laundry" />
+
+    <fragment
+        android:id="@+id/maintenanceFragment"
+        android:name="com.pinehotel.hospitality.fragments.MaintenanceFragment"
+        android:label="Maintenance"
+        tools:layout="@layout/fragment_maintenance" />
+
+    <fragment
+        android:id="@+id/barFragment"
+        android:name="com.pinehotel.hospitality.fragments.BarFragment"
+        android:label="Lounge &amp; Bar"
+        tools:layout="@layout/fragment_room_service" />
+
+    <fragment
+        android:id="@+id/myRequestsFragment"
+        android:name="com.pinehotel.hospitality.fragments.MyRequestsFragment"
+        android:label="My Requests"
+        tools:layout="@layout/fragment_my_requests" />
+
+    <fragment
+        android:id="@+id/entertainmentFragment"
+        android:name="com.pinehotel.hospitality.fragments.EntertainmentFragment"
+        android:label="Entertainment"
+        tools:layout="@layout/fragment_entertainment" />
+
+    <fragment
+        android:id="@+id/viewCartFragment"
+        android:name="com.pinehotel.hospitality.fragments.ViewCartFragment"
+        android:label="View Cart"
+        tools:layout="@layout/fragment_view_cart">
+        <action
+            android:id="@+id/action_viewCart_to_orderConfirmation"
+            app:destination="@id/orderConfirmationFragment"
+            app:popUpTo="@id/servicesDashboardFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/orderConfirmationFragment"
+        android:name="com.pinehotel.hospitality.fragments.OrderConfirmationFragment"
+        android:label="Order Confirmation"
+        tools:layout="@layout/fragment_order_confirmation" />
+
+</navigation>

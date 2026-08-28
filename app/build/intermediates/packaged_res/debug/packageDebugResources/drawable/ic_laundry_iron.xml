@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Pink clothes iron with steam lines - 3D Isometric Look -->
+    <path
+        android:fillColor="#F06292"
+        android:pathData="M150,300 L362,300 L412,400 L150,400 Z" />
+    <path
+        android:fillColor="#EC407A"
+        android:pathData="M150,300 L150,250 L300,250 L300,300 Z" />
+</vector>

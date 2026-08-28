@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="burgundy_text">#2A0E16</color>
+    <color name="card_focused_bg">#5C1B2E</color>
+    <color name="card_unfocused_bg">#2A0E16</color>
+    <color name="gold_accent">#D4AF37</color>
+    <color name="gold_accent_cart">#D4AF6A</color>
+    <color name="gold_bright">#F4D06F</color>
+    <color name="gold_dim">#8A6E23</color>
+    <color name="gold_gradient_end">#B8860B</color>
+    <color name="gold_gradient_start">#D4AF6A</color>
+    <color name="ic_launcher_background">#2A0A14</color>
+    <color name="overlay_black_40">#66000000</color>
+    <color name="overlay_black_60">#99000000</color>
+    <color name="rose_pink">#D81B60</color>
+    <color name="rose_pink_dark">#880E4F</color>
+    <color name="rose_pink_light">#F06292</color>
+    <color name="status_done">#4CAF50</color>
+    <color name="status_in_progress">#2196F3</color>
+    <color name="status_pending">#FFC107</color>
+    <color name="text_muted">#9C8878</color>
+    <color name="text_primary">#F5EFE6</color>
+    <color name="text_secondary">#C9B8A8</color>
+    <color name="transparent">#00000000</color>
+    <color name="wine_card_bg">#2A0E16</color>
+    <color name="wine_dark">#2A0A14</color>
+    <color name="wine_light">#6B142F</color>
+    <color name="wine_mid">#4A0F22</color>
+    <string name="app_name">Pine Hotel Hospitality TV</string>
+    <string name="btn_live_tv">LIVE TV</string>
+    <string name="btn_my_bookings">MY BOOKINGS</string>
+    <string name="experiences_empty_subtitle">Enjoy your time with us</string>
+    <string name="experiences_empty_title">No experiences scheduled today</string>
+    <string name="experiences_title">Today\'s Experiences</string>
+    <string name="footer_guest_prefix">Guest:</string>
+    <string name="footer_room_prefix">Room:</string>
+    <string name="hotel_name">Pine Hotel</string>
+    <string name="hotel_tagline">Comfort Redefined</string>
+    <string name="nav_hint_back">Press BACK to go back</string>
+    <string name="nav_hint_select">Press OK on remote to select</string>
+    <string name="room_format">Room %s</string>
+    <string name="welcome_message">We wish you a pleasant stay!</string>
+    <string name="welcome_prefix">Welcome, Guest</string>
+    <string name="welcome_sub_message">Relax. Unwind. We are here for you.</string>
+    <string name="wifi_card_title">Complimentary WiFi</string>
+    <string name="wifi_network_name">Pine_Hotel_Guest</string>
+    <string name="wifi_tap_label">Tap</string>
+    <style name="BookingCategoryCard">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:background">@drawable/bg_booking_card</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">false</item>
+    </style>
+    <style name="BookingCategoryTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_muted</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="BookingEmptyText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:text">No bookings yet</item>
+        <item name="android:textColor">@color/text_muted</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="BookingItemList">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="FullScreenDialog" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/overlay_black_60</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="Theme.PineHotelTV" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/wine_dark</item>
+        <item name="android:colorBackground">@color/wine_dark</item>
+        <item name="colorPrimary">@color/gold_accent</item>
+        <item name="colorAccent">@color/gold_accent</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="TransportFieldEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:background">@drawable/selector_dialog_input</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_muted</item>
+        <item name="android:textSize" ns1:ignore="SpUsage">14sp</item>
+    </style>
+    <style name="TransportFieldInputGroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:background">@drawable/bg_dialog_input_disabled</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="TransportFieldInputHint">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_muted</item>
+        <item name="android:textSize" ns1:ignore="SpUsage">10sp</item>
+    </style>
+    <style name="TransportFieldInputValue">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize" ns1:ignore="SpUsage">14sp</item>
+    </style>
+    <style name="TransportFieldLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textColor">@color/text_muted</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+</resources>

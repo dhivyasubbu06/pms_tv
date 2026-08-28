@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Stack of neatly folded white/blue clothes - 3D Isometric Look -->
+    <path
+        android:fillColor="#E1F5FE"
+        android:pathData="M150,300 L362,300 L362,400 L150,400 Z" />
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M150,250 L362,250 L362,300 L150,300 Z" />
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M150,200 L362,200 L362,250 L150,250 Z" />
+</vector>

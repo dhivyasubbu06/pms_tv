@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <!-- Neatly made bed with purple/navy linens - 3D Isometric Look -->
+    <path
+        android:fillColor="#303F9F"
+        android:pathData="M50,400 L462,400 L462,450 L50,450 Z" />
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M80,300 L432,300 L432,400 L80,400 Z" />
+    <path
+        android:fillColor="#5C6BC0"
+        android:pathData="M80,300 L256,250 L432,300 Z" />
+</vector>
